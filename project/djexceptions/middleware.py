@@ -8,8 +8,7 @@ from .exceptions import RedirectException
 
 
 class ExceptionsMiddleware(object):
-    """
-    Middleware to process custom exception and redirect
+    """Middleware to process custom exception and redirect
     the user to the view
     """
     def process_exception(self, request, exception):
