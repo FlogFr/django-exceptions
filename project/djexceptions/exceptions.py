@@ -4,3 +4,4 @@ class RedirectException(Exception):
     is raise
     """
     view_name = None
+    template_name = None
